@@ -16,10 +16,6 @@ body {
     padding: 20px;
 }
 
-.container span{
-    color: #e67e22;
-}
-
 .fa-bars {
     display: none;
     cursor: pointer;
@@ -562,10 +558,12 @@ padding: 10px;
 .educationandwork {
     display: flex;
     padding-top: 40px;
+    width: 100%;
 }
 
 .education {
 flex-basis: 40%;
+width: 100%;
 }
 
 .education h1 {
@@ -576,6 +574,7 @@ text-align: center;
 
 .work-experience {
 flex: 1;
+width: 100%;
 }
 
 .work-experience h1{
@@ -589,6 +588,8 @@ flex: 1;
     display: flex;
     flex-direction: column;
     padding: 20px;
+    width: 100%;
+   
 }
 
 .university-top {
@@ -603,11 +604,12 @@ flex: 1;
 
 .metadata {
     margin-right: 35px;
+    color:  #00000099;
 }
 
 .work-timeline {
     display: flex;
-
+    width: 100%;
 }
 
 .work {
@@ -615,18 +617,191 @@ flex: 1;
     flex-direction: column;
    border-bottom: 1px solid  #E5E5E5;
    padding: 20px;
+   width: 100%;
 }
 
 .work-top {
     display: flex;
     justify-content: space-between;
     width: 900px;
-
+    width: 100%;
 }
 
 .work-bottom {
     display: flex;
     justify-content: space-between;
-
+    width: 100%;
 }
+
+.educationandwork h2 {
+    font-weight: 700;
+    font-size: 1.2vw;
+    padding: 10px;
+}
+
+.educationandwork small {
+    font-weight: 400;
+    color: #00000099;  
+    padding: 10px;  
+}
+
+
+/* TESTIMONIALS SECTION */
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding: 40px;
+    width: 100%;
+}
+
+.testimonials h5 {
+    font-weight: 700;
+    color: #4353FF;
+    padding: 10px;
+}
+
+.testimonials h1 {
+    font-weight: 700;
+    padding: 10px;
+    font-size: 55px;
+   
+}
+
+.common {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.common-left {
+    flex-basis: 50%;
+    width: 100%;
+}
+
+.common-left img {
+    width: 80%;
+}
+
+.common-right {
+    flex: 1;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.common-right p {
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px;
+}
+
+.common-right-bottom {
+    padding: 20px;
+}
+
+.common-right-bottom h4 {
+   font-weight: 700;
+    padding: 5px;
+}
+
+.common-right-bottom small {
+    padding: 5px;
+    font-weight: 400;
+}
+
+/* FREQUENTLY SECTION */
+
+.frequently {
+    background: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.frequently h6 {
+    color: #FF8A56;
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.frequently h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.fre-common {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.fre-top {
+    display: flex;
+    margin-top: 20px;
+    padding-top: 30px;
+}
+
+.fre-top-left {
+    flex-basis: 50%;
+    
+}
+
+.fre-top-right{
+    flex: 1;
+}
+
+.fre-what {
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+   margin-right: 20px;
+}
+
+
+
+
+
+.fre-bottom h3 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.fre-bottom h2 {
+    color: #3C46FF;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.fre-bot-left h5 {
+    color: #fff;
+}
+
+.fre-bot-left small {
+    color:#fff;
+}
+
+.fre-bot-left p {
+    color: #fff;
+}
+
+
+.footer p {
+    color: #fff;
+}
+
 
